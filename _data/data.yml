@@ -129,6 +129,23 @@ publications:
         authors: Faruqi.F, Shrivastava M.
         conference: International Conference on Natural Language Processing 2018
 
+
+presentations:
+    - role: MIT-IBM Watson AI Lab Workshop 
+      time: May, 2019
+      company: Poster Presentation
+      advisor: Cambridge, MA
+      details: |
+          -  **DeepFab:** Learning to Predict Optimal Slicing Parameters for Additive Manufacturing 
+          - **IntelliMaterial:** Learning to Predict Optimal Slicing Parameters for New Materials in Additive Manufacturing 
+
+    - role: Collective Intelligence Workshop at MIT Quest for Intelligence
+      time: September, 2019
+      company: Poster Presentation
+      advisor: Cambridge, MA
+      details: |
+          -  **IntelliSlice:** Reusing and Sharing slicing results 
+
 skills:
     title: Skills &amp; Proficiency
 
