@@ -1,31 +1,82 @@
-{% assign skills = site.data.data.skills %}
-{% if skills %}
+{% assign skills = site.data.data.skills %} {% if skills %}
 <section class="skills-section section">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
+    <h2 class="section-title">
+        <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ skills.title }}
-  </h2>
+    </span> {{ skills.title }}
+    </h2>
 
-  <div class="skillset">
+    <div class="skillset">
 
-    {% for skill in skills.toolset %}
-    <div class="item">
+        {% for skill in skills.toolset %}
+        <div class="item">
 
-      <h3 class="level-title">{{ skill.name }}</h3>
+            <h3 class="level-title">{{ skill.name }}</h3>
+            <br>
 
-      <div class="level-bar">
+            <div class="details" style="text-align: justify">
+                {{ skill.details | markdownify }}
+            </div>
+
+            <!-- <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
-      </div><!--//level-bar-->
+      </div>//level-bar -->
 
-    </div><!--//item-->
-    {% endfor %}
+        </div>
+        <!--//item-->
+        {% endfor %}
 
-  </div>
+    </div>
 
-</section><!--//skills-section-->
+</section>
+<!--//skills-section-->
+{% endif %} {% assign skills = site.data.data.coursework %} {% if skills %}
+<section class="skills-section section">
+
+    <h2 class="section-title">
+        <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span> {{ skills.title }}
+    </h2>
+
+    <div class="skillset">
+
+        <div class="item">
+
+            <div class="details" style="text-align: justify">
+                {{ skills.details | markdownify }}
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+{% endif %} {% assign skills = site.data.data.leadership %} {% if skills %}
+<section class="skills-section section">
+
+    <h2 class="section-title">
+        <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span> {{ skills.title }}
+    </h2>
+
+    <div class="skillset">
+
+        <div class="item">
+
+            <div class="details" style="text-align: justify">
+                {{ skills.details | markdownify }}
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 {% endif %}
