@@ -9,11 +9,11 @@ sidebar:
     # Profile information
     name: Faraz Faruqi
     tagline: HCI Researcher, AI Enthusiast
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: me@farazfaruqi.com
-    phone: 012 345 6789
+    phone: 774 253 3859
     website: farazfaruqi.com #do not add http://
     linkedin: faraz-faruqi
     github: FarazFaruqi
@@ -128,6 +128,23 @@ publications:
         link: "/pdfs/Is_This_A_Joke.pdf"
         authors: Faruqi.F, Shrivastava M.
         conference: International Conference on Natural Language Processing 2018
+
+
+presentations:
+    - role: MIT-IBM Watson AI Lab Workshop 
+      time: May, 2019
+      company: Poster Presentation
+      advisor: Cambridge, MA
+      details: |
+          -  **DeepFab:** Learning to Predict Optimal Slicing Parameters for Additive Manufacturing 
+          - **IntelliMaterial:** Learning to Predict Optimal Slicing Parameters for New Materials in Additive Manufacturing 
+
+    - role: Collective Intelligence Workshop at MIT Quest for Intelligence
+      time: September, 2019
+      company: Poster Presentation
+      advisor: Cambridge, MA
+      details: |
+          -  **IntelliSlice:** Reusing and Sharing slicing results 
 
 skills:
     title: Skills &amp; Proficiency
