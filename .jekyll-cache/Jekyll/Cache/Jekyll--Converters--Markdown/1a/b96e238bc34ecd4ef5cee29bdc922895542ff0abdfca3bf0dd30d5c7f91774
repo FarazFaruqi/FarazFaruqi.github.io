@@ -1,0 +1,9 @@
+I"w<ul>
+  <li><strong>Semantic Analysis of Humor in English Language:</strong> Created a dataset of 800,000 humor and non-humor sentences extracted 
+from social media websites and other web-based sources.</li>
+  <li>Created an Attention-based LSTM model to classify sentences as humorous or non-humorous.</li>
+  <li><strong>Denormalized Text Generator:</strong> Designed an algorithm to generate code-mixed data from a parallel corpora of English 
+and Hindi using Linguistic Features.</li>
+  <li>Developed a text-generator that used frequency as a metric to generate bilingual text with most common words of each language.</li>
+</ul>
+:ET
