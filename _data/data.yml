@@ -146,27 +146,40 @@ presentations:
       details: |
           -  **IntelliSlice:** Reusing and Sharing slicing results 
 
+
+coursework:
+  title: Relevant Coursework
+  details: Data Structures & Algorithms, Object Oriented Programming, Artificial Intelligence, Machine Learning, Graph Theory, Automata Theory, Database Systems, Microprocessors, Sofware Engineering, Software Engineering, Computer Networks
+
+
+leadership:
+  title: Leadership/ Extra-Curricular Activities
+  details: |
+    - Campus Ambassador for Google Applied CS with Android course facilitated by Google.
+    - Organized Awareness Campaigns, Door to Door visits and cleanliness campaigns as part of Swachh Bharat Abhiyaan which recently received
+      Gates Foundation Award.
+    - Computer Science Instructor for Helpage Youth Foundation.
+    - Former Core Committee member of ACM Chapter Manipal.
+    - Recieved Bronze medal at ASISC State level swimming competition.
+    - Published Essays in Weekly Newspapers and School Yearbooks.
+  
+
 skills:
-    title: Skills &amp; Proficiency
+    title: Technical Skills
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Programming Languages
+        details: |
+          - Adept in C, Java, Python and Javascript
+          - Working Knowledge of C#, C++, QML
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Database
+        details:  |
+          - SQL Server, Oracle Express
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Sofware, IDE
+        details: |
+          - MATLAB, Eclipse, Android Studio, Visual Studio, Cura, Adobe Suite, Processing
 
 footer: >
     Designed by Faraz Faruqi with inspiration from <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
