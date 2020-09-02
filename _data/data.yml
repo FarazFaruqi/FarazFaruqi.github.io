@@ -8,11 +8,11 @@ sidebar:
 
     # Profile information
     name: Faraz Faruqi
-    tagline: HCI Researcher, AI Enthusiast
+    tagline: Ph.D. student in Computer Science at MIT
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: me@farazfaruqi.com
+    email: ffaruqi@mit.edu
     phone: 774 253 3859
     website: farazfaruqi.com #do not add http://
     linkedin: faraz-faruqi
@@ -37,10 +37,13 @@ sidebar:
     interests:
       - item: Piano
         link:
-
-      - item: Snowboarding
+       
+      - item: Running
         link:
-
+       
+      - item: Hiking
+        link:
+        
       - item: Cooking
         link:
 
@@ -57,6 +60,12 @@ career-profile:
         that amplify human ability to realize imagination, motivate self-reliance and enhance creative expression. 
 
 education:
+	- degree: Ph.D. in Computer Science
+      university: Massachusetts Institute of Technology
+      time: 2020 - Present
+      details: |
+
+
     - degree: BTech in Computer Science
       university: Manipal Institute of Technology
       time: 2015 - 2019
@@ -79,7 +88,7 @@ experiences:
            analyzes its frequency spectrum to extract MFCC features and classifies the correct class of slicing setting. 
 
 
-    - role: Ungergraduate Research Assistant 
+    - role: Undergraduate Research Assistant 
       time: June - August 2018
       company: Human-Computer Interaction Institute, Carnegie Mellon University 
       advisor: Prof. Justine Cassell
@@ -92,7 +101,7 @@ experiences:
           playing the game. The data generated from the study was used to analyse the frequency of behaviors and the various dependencies among them.
 
 
-    - role: Ungergraduate Research Assistant 
+    - role: Undergraduate Research Assistant 
       time: June - July, 2017
       company: Language Technologies Research Center, IIIT Hyderabad, India
       advisor: Prof. Manish Shrivastava
@@ -104,7 +113,7 @@ experiences:
           and Hindi using Linguistic Features.
           -  Developed a text-generator that used frequency as a metric to generate bilingual text with most common words of each language.
 
-    - role: Ungergraduate Research Assistant 
+    - role: Undergraduate Research Assistant 
       time: January, 2017 - December, 2018
       company: Manipal Institute of Technology, India
       advisor: Prof. P.B. Shanthi
@@ -210,4 +219,4 @@ footer: >
 
 #       - title: Delta
 #         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"    
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
