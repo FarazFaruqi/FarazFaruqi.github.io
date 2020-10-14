@@ -93,7 +93,7 @@ experiences:
   title: Research Experience
   time: Jan 2019 - Dec 2019
   company: HCIE [Group](https://hcie.csail.mit.edu/), CSAIL, MIT
-  advisor: [Prof. Stefanie Mueller](https://hcie.csail.mit.edu/stefanie-mueller.html)
+  advisor: Prof. Stefanie Mueller
   details: |
  #         - **Identification using 3D Print Markers:** Collaborated in developing a novel method #to identify 3D printed objects
  #         by utilizing the unique patterns created by modifying the slicing parameters during the 3D printing process.
