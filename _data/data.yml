@@ -67,7 +67,6 @@ education:
       details: |
 
 experiences:
-
     - role: Research Assistant at CSAIL, MIT
       title: Research Experience
       time: July 2020 - Present
@@ -75,8 +74,7 @@ experiences:
       advisor: Prof. Stefanie Mueller
       details: |
       - Digital Fabrication and Machine Learning
-      
-      
+        
      - role: Visiting Research Student
       title: Research Experience
       time: Jan 2020 - July 2020
@@ -84,7 +82,6 @@ experiences:
       advisor: Prof. Sriram Subramanian
       details: | 
       - 3D Visualizer with Acoustic Levitation 
-      
       
     - role: Visiting Student
       title: Research Experience
@@ -94,10 +91,8 @@ experiences:
       details: | 
           - **Ecosytem for Slicing**: Designed a system that reverses the traditional 3D printing workflow and allows exploration of multiple prototyping options simultaneously.
     Using a popular slicing software, created a parallel slicing system that instantiated in the cloud, an online storage system to reuse previously processed results, and a desktop and web-based UI to explore the results.
-    - **Identification using 3D Print Markers**: Collaborated in developing a novel method to identify 3D printed objects by utilizing the unique patterns created by modifying the slicing parameters during the 3D printing process.
-    Developed an Acoustic detection system that detects the sound created by scratching the surface of 3D models, analyzes its frequency spectrum to extract MFCC features and classifies the correct class of slicing settings.
-      
-
+          - **Identification using 3D Print Markers**: Collaborated in developing a novel method to identify 3D printed objects by utilizing the unique patterns created by modifying the slicing parameters during the 3D printing process.
+          Developed an Acoustic detection system that detects the sound created by scratching the surface of 3D models, analyzes its frequency spectrum to extract MFCC features and classifies the correct class of slicing settings.
 
     - role: Undergraduate Research Assistant 
       time: June - August 2018
@@ -183,7 +178,6 @@ leadership:
     - Recieved Bronze medal at ASISC State level swimming competition.
     - Published Essays in Weekly Newspapers and School Yearbooks.
   
-
 skills:
     title: Technical Skills
 
