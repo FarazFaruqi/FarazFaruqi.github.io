@@ -50,13 +50,13 @@ career-profile:
 
 education:
 - degree: Ph.D. in Computer Science
-      university: Massachusetts Institute of Technology
-      time: 2020 - Present
-      details: |
+  university: Massachusetts Institute of Technology
+  time: 2020 - Present
+  details: |
 - degree: BTech in Computer Science and Engg
-      university: Manipal Institute of Technology
-      time: 2015 - 2019
-      details: |
+  university: Manipal Institute of Technology
+  time: 2015 - 2019
+  details: |
 
 #           -  **Ecosytem for Slicing:** Designed a system that reverses the traditional 3D printing workflow 
 #          and allows exploration of multiple prototyping options simultaneously. 
@@ -65,10 +65,10 @@ education:
 
 experiences:
 	- role: Visiting Research Student
-        title: Research Experience
-        time: Jan 2020 - July 2020
-        company: Interact Lab, University of Sussex and University College London
-        advisor: Prof. Sriram Subramanian
+      title: Research Experience
+      time: Jan 2020 - July 2020
+      company: Interact Lab, University of Sussex and University College London
+      advisor: Prof. Sriram Subramanian
 
 #details: |
 #            - **Identification using 3D Print Markers:** Collaborated in developing a novel method to identify 3D printed objects
