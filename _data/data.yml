@@ -65,15 +65,14 @@ education:
       details: |
 
 experiences:
-	- role: Research Assistant at CSAIL, MIT
+- role: Research Assistant at CSAIL, MIT
       title: Research Experience
       time: July 2020 - Present
       company: HCI Engineering Group, CSAIL, Massachusetts Institute of Technology
       advisor: Prof. Stefanie Mueller
       details: |
       - Digital Fabrication and Machine Learning
-      
-     - role: Visiting Research Student
+- role: Visiting Research Student
       title: Research Experience
       time: Jan 2020 - July 2020
       company: Interact Lab, University College London, UK
@@ -81,7 +80,7 @@ experiences:
       details: | 
       - 3D Visualizer with Acoustic Levitation 
       
-    - role: Visiting Student
+- role: Visiting Student
       title: Research Experience
       time: Jan 2019 - Dec 2019
       company: HCI Engineering Group, CSAIL, Massachusetts Institute of Technology
