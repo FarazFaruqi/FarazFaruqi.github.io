@@ -89,7 +89,7 @@ experiences:
 #            - Developed an Acoustic detection system that detects the sound created by scratching the surface of 3D models,
 #             analyzes its frequency spectrum to extract MFCC features and classifies the correct class of slicing setting. 
 
-- role: Visiting Student
+- role: Visiting Research Student
   title: Research Experience
   time: Jan 2019 - Dec 2019
   company: HCIE Group, CSAIL, MIT
