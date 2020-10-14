@@ -80,7 +80,7 @@ experiences:
 - role: Visiting Research Student
   title: Research Experience
   time: Jan 2020 - July 2020
-  company: [Interact Lab](), University College London
+  company: SMD Lab, University College London
   advisor: [Prof. Sriram Subramanian](https://uclic.ucl.ac.uk/people/sriram-subramanian)
   details: |
 #details: |
@@ -92,7 +92,7 @@ experiences:
 - role: Visiting Research Student
   title: Research Experience
   time: Jan 2019 - Dec 2019
-  company: HCIE Group, CSAIL, MIT
+  company: HCIE [Group](https://hcie.csail.mit.edu/), CSAIL, MIT
   advisor: [Prof. Stefanie Mueller](https://hcie.csail.mit.edu/stefanie-mueller.html)
   details: |
  #         - **Identification using 3D Print Markers:** Collaborated in developing a novel method #to identify 3D printed objects
@@ -103,7 +103,7 @@ experiences:
 - role: Undergraduate Research Assistant 
   time: June - August 2018
   company: Human-Computer Interaction Institute, CMU 
-  advisor: Prof. Justine Cassell
+  advisor: [Prof. Justine Cassell](https://www.hcii.cmu.edu/people/justine-cassell)
   details: |
 #          - **Sensing Curiosity in Play and Responding:** Developed an intelligent virtual child as a peer collaborator to study
 #           behavior and evoke curiosity in a multiparty game called Outbreak.
