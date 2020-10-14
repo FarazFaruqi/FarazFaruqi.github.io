@@ -69,11 +69,10 @@ education:
 #           an online storage system to reuse previously processed results, and a desktop and web-# based UI to explore the results. 
 
 experiences:
-
 - role: Graduate Research Assistant 
   title: Research Experience
   time: July 2020 - Present
-  company: HCIE [Group](https://hcie.csail.mit.edu/), CSAIL, MIT
+  company: [HCIE Group](https://hcie.csail.mit.edu/), CSAIL, MIT
   advisor: [Prof. Stefanie Mueller](https://hcie.csail.mit.edu/stefanie-mueller.html)
   details: |
   
