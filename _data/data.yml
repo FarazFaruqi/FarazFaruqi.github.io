@@ -69,7 +69,7 @@ education:
 experiences:
 
 - role: Graduate Research Assistant 
-  title: Research Experience
+  title: Research Experience Timeline
   time: Jan 2020 - July 2020
   company: HCI Engineering Group, CSAIL, Massachusetts Institute of Technology
   advisor: Prof. Stefanie Mueller
@@ -103,36 +103,36 @@ experiences:
   company: Human-Computer Interaction Institute, Carnegie Mellon University 
   advisor: Prof. Justine Cassell
   details: |
-          - **Sensing Curiosity in Play and Responding:** Developed an intelligent virtual child as a peer collaborator to study
-           behavior and evoke curiosity in a multiparty game called Outbreak.
-          -  Designed a model to dynamically extract optimal audio signal from multiple sources, perform Automatic Speech Recognition, 
-          and convert the unstructured speech to a knowledge representation.
-          -  Created a Restricted Wizard-of-Oz system to efficiently detect and annotate conversational behaviors shown by children while 
-          playing the game. The data generated from the study was used to analyse the frequency of behaviors and the various dependencies among them.
+#          - **Sensing Curiosity in Play and Responding:** Developed an intelligent virtual child as a peer collaborator to study
+#           behavior and evoke curiosity in a multiparty game called Outbreak.
+#          -  Designed a model to dynamically extract optimal audio signal from multiple sources, perform Automatic Speech Recognition, 
+#          and convert the unstructured speech to a knowledge representation.
+#          -  Created a Restricted Wizard-of-Oz system to efficiently detect and annotate conversational behaviors shown by children while 
+#          playing the game. The data generated from the study was used to analyse the frequency of behaviors and the various dependencies among them.
 
 - role: Undergraduate Research Assistant 
   time: June - July, 2017
   company: Language Technologies Research Center, IIIT Hyderabad, India
   advisor: Prof. Manish Shrivastava
   details: |
-          - **Semantic Analysis of Humor in English Language:** Created a dataset of 800,000 humor and non-humor sentences extracted 
-          from social media websites and other web-based sources.
-          - Created an Attention-based LSTM model to classify sentences as humorous or non-humorous.
-          - **Denormalized Text Generator:** Designed an algorithm to generate code-mixed data from a parallel corpora of English 
-          and Hindi using Linguistic Features.
-          -  Developed a text-generator that used frequency as a metric to generate bilingual text with most common words of each language.
+#          - **Semantic Analysis of Humor in English Language:** Created a dataset of 800,000 humor and non-humor sentences extracted 
+#          from social media websites and other web-based sources.
+#          - Created an Attention-based LSTM model to classify sentences as humorous or non-humorous.
+#          - **Denormalized Text Generator:** Designed an algorithm to generate code-mixed data from a parallel corpora of English 
+#          and Hindi using Linguistic Features.
+#          -  Developed a text-generator that used frequency as a metric to generate bilingual text with most common words of each language.
 
 - role: Undergraduate Research Assistant 
   time: January, 2017 - December, 2018
   company: Manipal Institute of Technology, India
   advisor: Prof. P.B. Shanthi
   details: |
-          - **Cervical Cancer Detection System:** Explored various Image Enhancement techniques like including 0Canny-Edge, 
-            Sobel and Fuzzy Normalization to augment target features in segmented cell images.
-          - Used Deep Convolutional Networks to classify processed cell images. Explored Transfer Learning as a method for improving accuracy.
-          - **Shunya: Lightweight Handwritten Digit Recognizer:** Using Kirsch Directional features of an image as input, 
-            and a Convolutional Network as a classifier, created a lightweight system for handwritten
-            digit recognition. Achieved 98.8% accuracy in MNIST using a fraction of compute power to train as compared to traditional CNNs.
+#          - **Cervical Cancer Detection System:** Explored various Image Enhancement techniques like including 0Canny-Edge, 
+#            Sobel and Fuzzy Normalization to augment target features in segmented cell images.
+#          - Used Deep Convolutional Networks to classify processed cell images. Explored Transfer Learning as a method for improving accuracy.
+#          - **Shunya: Lightweight Handwritten Digit Recognizer:** Using Kirsch Directional features of an image as input, 
+#            and a Convolutional Network as a classifier, created a lightweight system for handwritten
+#            digit recognition. Achieved 98.8% accuracy in MNIST using a fraction of compute power to train as compared to traditional CNNs.
 
 publications:
     title: Publications
