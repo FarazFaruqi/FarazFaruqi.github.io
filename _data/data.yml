@@ -95,10 +95,10 @@ experiences:
   company: HCIE Group, CSAIL, MIT
   advisor: Prof. Stefanie Mueller
   details: |
-          - **Identification using 3D Print Markers:** Collaborated in developing a novel method to identify 3D printed objects
-          by utilizing the unique patterns created by modifying the slicing parameters during the 3D printing process.
-          - Developed an Acoustic detection system that detects the sound created by scratching the surface of 3D models,
-           analyzes its frequency spectrum to extract MFCC features and classifies the correct class of slicing setting. 
+ #         - **Identification using 3D Print Markers:** Collaborated in developing a novel method #to identify 3D printed objects
+ #         by utilizing the unique patterns created by modifying the slicing parameters during the 3D printing process.
+#          - Developed an Acoustic detection system that detects the sound created by scratching the surface of 3D models,
+#           analyzes its frequency spectrum to extract MFCC features and classifies the correct class of slicing setting. 
 
 - role: Undergraduate Research Assistant 
   time: June - August 2018
