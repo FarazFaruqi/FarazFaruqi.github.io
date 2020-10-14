@@ -79,9 +79,9 @@ experiences:
       
      - role: Visiting Research Student
       title: Research Experience
-      time: Jan 2019 - Dec 2019
-      company: HCI Engineering Group, CSAIL, Massachusetts Institute of Technology
-      advisor: Prof. Stefanie Mueller
+      time: Jan 2020 - July 2020
+      company: Interact Lab, University College London, UK
+      advisor: Prof. Sriram Subramanian
       details: | 
       3D Visualizer with Acoustic Levitation 
       
@@ -92,7 +92,10 @@ experiences:
       company: HCI Engineering Group, CSAIL, Massachusetts Institute of Technology
       advisor: Prof. Stefanie Mueller
       details: | 
-      **Identification of 3D printed objects with abstract objects**
+          - **Ecosytem for Slicing**: Designed a system that reverses the traditional 3D printing workflow and allows exploration of multiple prototyping options simultaneously.
+    Using a popular slicing software, created a parallel slicing system that instantiated in the cloud, an online storage system to reuse previously processed results, and a desktop and web-based UI to explore the results.
+    - **Identification using 3D Print Markers**: Collaborated in developing a novel method to identify 3D printed objects by utilizing the unique patterns created by modifying the slicing parameters during the 3D printing process.
+    Developed an Acoustic detection system that detects the sound created by scratching the surface of 3D models, analyzes its frequency spectrum to extract MFCC features and classifies the correct class of slicing settings.
       
 
 
