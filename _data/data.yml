@@ -140,14 +140,16 @@ publications:
     title: Publications
     intro: |
     papers:
-      - title: G-ID: Identifying 3D Prints Using Slicing Parameters
-        link: https://doi.org/10.1145/3313831.3376202
-        authors: Dogan M.D., Faruqi F., Churchill A., Friedman K., Cheng L., Subramanian S., Mueller S.
+      - title: "G-ID: Identifying 3D Prints Using Slicing Parameters"
+        link: "https://doi.org/10.1145/3313831.3376202"
+        authors: Dogan M.D., Faruqi F., Churchill A. D., Friedman K., Cheng L., Subramanian S., Mueller S.
         conference: 2020 ACM CHI Conference on Human Factors in Computing Systems
+        
       - title: Microscopic Uterine Cervix Cell Classification for Malignancy Detection
         link: "http://journal.waocp.org/article_88806_7a310c33233e0e35e7800013f70668e6.pdf"
         authors: Shanthi P.B., Faruqi F., Hareesha K.S., Kudva R.
         conference: Asian Pacific Journal of Cancer Prevention
+        
       - title: "Is This a Joke?: A Large Humor Classification Dataset"
         link: "/pdfs/Is_This_A_Joke.pdf"
         authors: Faruqi.F, Shrivastava M.
