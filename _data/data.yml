@@ -46,10 +46,10 @@ career-profile:
     summary: |
      Hey! Faraz Faruqi here. 
      
-     I am a first year Computer Science Ph.D. student at MIT, where I am working with [Prof. Stefanie Mueller](https://hcie.csail.mit.edu/) at CSAIL. My research interests lie at the intersection of digital fabrication and machine learning for HCI. The fundamental aim of my research is to design sociable, intelligent and interactive technologies that amplify human ability to realize imagination and enhance creative expression. Before joining as a PhD student at MIT, I worked with [Prof. Sriram Subramanian]() 
-
+     I am a first year Computer Science Ph.D. student at MIT, where I am working with [Prof. Stefanie Mueller](https://hcie.csail.mit.edu/) at CSAIL. My research interests lie at the intersection of digital fabrication and machine learning for HCI. The fundamental aim of my research is to design sociable, intelligent and interactive technologies that amplify human ability to realize imagination and enhance creative expression. 
      
-     Prior to MIT, I have worked with research labs at CMU, Pittsburgh and IIIT Hyderabad. As an undergraduate research student, I collaborated with graduate and post-graduate researchers in projects involving creating virtual collaborative agents to elicit curiosity for science in young children, to creating deep learning systems for classifying and generating humorous texts.
+     Before joining as a PhD student at MIT, I worked with [Prof. Sriram Subramanian](https://www.ucl.ac.uk/computer-science/research/research-groups/multi-sensory-devices/) at UCL, London as a visiting student, where we worked on visualizing 3D objects with acoustic levitation. As an undergraduate research student, I briefly worked at HCI Institute, CMU with [Prof. Justine Cassell](https://www.hcii.cmu.edu/people/justine-cassell) on a project involving creating virtual collaborative agents to elicit curiosity for science in young students through collaborative games.
+     
      
 
 education:
@@ -79,7 +79,7 @@ experiences:
 - role: Visiting Research Student
   title: Research Experience
   time: Jan 2020 - July 2020
-  company: SMD Lab, University College London
+  company: Interact Lab, University College London
   advisor: Prof. Sriram Subramanian
   details: |
 #details: |
