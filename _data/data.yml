@@ -30,17 +30,15 @@ sidebar:
       - idiom: Urdu/Hindi
         level: Native
 
-      # - idiom: Spanish
-      #   level: Professional
 
     interests:
       - item: Piano
         link:
 
-      - item: Snowboarding
+      - item: Hiking
         link:
 
-      - item: Cooking
+      - item: Swimming
         link:
 
 career-profile:
@@ -48,9 +46,10 @@ career-profile:
     summary: |
      Hey! Faraz Faruqi here. 
      
-     I am a first year Computer Science Ph.D. student at MIT, where I am working with [Prof. Stefanie Mueller](https://hcie.csail.mit.edu/) at CSAIL. My research interests lie at the intersection of digital fabrication and machine learning for HCI. The fundamental aim of my research is to design sociable, intelligent and interactive technologies that amplify human ability to realize imagination, motivate self-reliance and enhance creative expression. 
+     I am a first year Computer Science Ph.D. student at MIT, where I am working with [Prof. Stefanie Mueller](https://hcie.csail.mit.edu/) at CSAIL. My research interests lie at the intersection of digital fabrication and machine learning for HCI. The fundamental aim of my research is to design sociable, intelligent and interactive technologies that amplify human ability to realize imagination and enhance creative expression. Before joining as a PhD student at MIT, I worked with [Prof. Sriram Subramanian]() 
+
      
-     Prior to MIT, I have worked with pioneering research labs at CMU, Pittsburgh and IIIT Hyderabad. As an undergraduate research student, I collaborated with graduate and post-graduate researchers in finding solutions to problems ranging from creating virtual collaborative agents to elicit curiosity for science in young children, to creating deep learning systems for classifying and generating humorous texts.
+     Prior to MIT, I have worked with research labs at CMU, Pittsburgh and IIIT Hyderabad. As an undergraduate research student, I collaborated with graduate and post-graduate researchers in projects involving creating virtual collaborative agents to elicit curiosity for science in young children, to creating deep learning systems for classifying and generating humorous texts.
      
 
 education:
@@ -148,7 +147,7 @@ publications:
       - title: Microscopic Uterine Cervix Cell Classification for Malignancy Detection
         link: "http://journal.waocp.org/article_88806_7a310c33233e0e35e7800013f70668e6.pdf"
         authors: Shanthi P.B., Faruqi F., Hareesha K.S., Kudva R.
-        conference: Asian Pacific Journal of Cancer Prevention
+        conference: 2019 Asian Pacific Journal of Cancer Prevention 
         
       - title: "Is This a Joke?: A Large Humor Classification Dataset"
         link: "/pdfs/Is_This_A_Joke.pdf"
@@ -173,9 +172,9 @@ presentations:
           -  **IntelliSlice:** Reusing and Sharing slicing results 
 
 
-coursework:
-  title: Relevant Coursework
-  details: Data Structures & Algorithms, Object Oriented Programming, Artificial Intelligence, Machine Learning, Graph Theory, Automata Theory, Database Systems, Microprocessors, Sofware Engineering, Software Engineering, Computer Networks
+# coursework:
+#   title: Relevant Coursework
+#   details: Data Structures & Algorithms, Object Oriented Programming, Artificial Intelligence, Machine Learning, Graph Theory, Automata Theory, Database Systems, Microprocessors, Sofware Engineering, Software Engineering, Computer Networks
 
 
 leadership:
@@ -190,22 +189,22 @@ leadership:
     - Published Essays in Weekly Newspapers and School Yearbooks.
   
 
-skills:
-    title: Technical Skills
+# skills:
+#     title: Technical Skills
 
-    toolset:
-      - name: Programming Languages
-        details: |
-          - Adept in C, Java, Python and Javascript
-          - Working Knowledge of C#, C++, QML
+#     toolset:
+#       - name: Programming Languages
+#         details: |
+#           - Adept in C, Java, Python and Javascript
+#           - Working Knowledge of C#, C++, QML
 
-      - name: Database
-        details:  |
-          - SQL Server, Oracle Express
+#       - name: Database
+#         details:  |
+#           - SQL Server, Oracle Express
 
-      - name: Sofware, IDE
-        details: |
-          - MATLAB, Eclipse, Android Studio, Visual Studio, Cura, Adobe Suite, Processing
+#       - name: Sofware, IDE
+#         details: |
+#           - MATLAB, Eclipse, Android Studio, Visual Studio, Cura, Adobe Suite, Processing
 
 footer: >
     Designed by Faraz Faruqi with inspiration from <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
