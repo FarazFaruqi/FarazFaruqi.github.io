@@ -139,12 +139,10 @@ publications:
     intro: |
     papers:
     - title: "Selective Self‐Assembly using Re‐Programmable Magnetic Pixels"
-        link: "https://doi.org/10.1145/3313831.3376202"
         authors: Nisser M., Makaram Y., Faruqi F., Suzuki R., Mueller S.
         conference: 2022 International Conference on Intelligent Robots and Systems (IROS 2022)
 
      - title: "Mixels: Fabricating Interfaces using Programmable Magnetic Pixels"
-        link: "https://doi.org/10.1145/3313831.3376202"
         authors: Nisser M., Makaram Y., Covarrubias L., Bah A., Faruqi F., Suzuki R., Leake M., Mueller S.
         conference: 2022 ACM Symposium on User Interface Softward and Technology (UIST 2022)
 
