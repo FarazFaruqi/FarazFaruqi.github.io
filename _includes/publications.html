@@ -27,6 +27,36 @@
     {% endfor %}
 
 </section>
+
+
+<section class="section publications-section">
+
+    <h2 class="section-title">
+        <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span> {{ short_papers.title }}
+    </h2>
+
+    {% if short_papers.intro %}
+    <div class="intro">
+        {{ short_papers.intro | markdownify }}
+    </div>
+    <!--//intro-->
+    {% endif %} {% for publication in short_papers.papers %}
+    <div class="item">
+        {% if publication.link %}
+        <li class="job-title"><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+        {% else %}
+        <li class="job-title">{{ publication.title }}</li>
+        {% endif %}
+        <div class="publication-authors">{{ publication.authors }}</div>
+        <div class="publication-conference">{{ publication.conference }}</div>
+    </div>
+    <!--//item-->
+    {% endfor %}
+
+</section>
 <!--//section-->
 {% endif %} {% assign experiences = site.data.data.presentations %} {% if experiences %}
 <section class="section experiences-section">

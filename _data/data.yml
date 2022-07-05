@@ -158,22 +158,36 @@ publications:
         authors: Faruqi.F, Shrivastava M.
         conference: International Conference on Natural Language Processing 2018
 
+short_papers:
+    title: Short Papers and Demonstrations
+    intro: |
+    papers:
+      - title: "SliceHub: Augmenting Shared 3D Model Repositories with Slicing Results for 3D Printing"
+      link: "https://arxiv.org/abs/2109.14722"
+      authors: Faruqi F., Friedman K., Cheng L., Wessely M., Subramanian S., Mueller S.
+      conference: 2022 ACM CHI Conference on Human Factors in Computing Systems (CHI 2022)
 
-presentations:
-    - role: MIT-IBM Watson AI Lab Workshop 
-      time: May, 2019
-      company: Poster Presentation
-      advisor: Cambridge, MA
-      details: |
-          -  **DeepFab:** Learning to Predict Optimal Slicing Parameters for Additive Manufacturing 
-          - **IntelliMaterial:** Learning to Predict Optimal Slicing Parameters for New Materials in Additive Manufacturing 
+      - title: "ChromoPrint: A Multi‐Color 3D Printer Based on a Reprogrammable Photochromic Resin"
+      link: "https://dl.acm.org/doi/fullHtml/10.1145/3491101.3519784"
+      authors: Qamar I., Chen S., Tskhovrebadze D., Boni P., Faruqi F., Wessely M., Mueller S.
+      conference: 2022 ACM CHI Conference on Human Factors in Computing Systems (CHI 2022)
 
-    - role: Collective Intelligence Workshop at MIT Quest for Intelligence
-      time: September, 2019
-      company: Poster Presentation
-      advisor: Cambridge, MA
-      details: |
-          -  **IntelliSlice:** Reusing and Sharing slicing results 
+
+# presentations:
+#     - role: MIT-IBM Watson AI Lab Workshop 
+#       time: May, 2019
+#       company: Poster Presentation
+#       advisor: Cambridge, MA
+#       details: |
+#           -  **DeepFab:** Learning to Predict Optimal Slicing Parameters for Additive Manufacturing 
+#           - **IntelliMaterial:** Learning to Predict Optimal Slicing Parameters for New Materials in Additive Manufacturing 
+
+#     - role: Collective Intelligence Workshop at MIT Quest for Intelligence
+#       time: September, 2019
+#       company: Poster Presentation
+#       advisor: Cambridge, MA
+#       details: |
+#           -  **IntelliSlice:** Reusing and Sharing slicing results 
 
 
 # coursework:
