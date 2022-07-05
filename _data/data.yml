@@ -51,7 +51,11 @@ career-profile:
 education:
 - degree: Ph.D. in Computer Science
   university: Massachusetts Institute of Technology
-  time: 2020 - Present
+  time: 2022 - Present
+  details: |
+- degree: M.S. in Electrical Engineering and Computer Science
+  university: Massachusetts Institute of Technology
+  time: 2020 - 2022
   details: |
 - degree: BTech in Computer Science and Engineering
   university: Manipal Institute of Technology
