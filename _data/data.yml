@@ -199,17 +199,58 @@ short_papers:
 #   details: Data Structures & Algorithms, Object Oriented Programming, Artificial Intelligence, Machine Learning, Graph Theory, Automata Theory, Database Systems, Microprocessors, Sofware Engineering, Software Engineering, Computer Networks
 
 
-leadership:
-  title: Leadership/ Extra-Curricular Activities
+# leadership:
+#   title: Leadership/ Extra-Curricular Activities
+#   details: |
+#     - Campus Ambassador for Google Applied CS with Android course facilitated by Google.
+#     - Organized Awareness Campaigns, Door to Door visits and cleanliness campaigns as part of Swachh Bharat Abhiyaan which recently received
+#       Gates Foundation Award.
+#     - Computer Science Instructor for Helpage Youth Foundation.
+#     - Former Core Committee member of ACM Chapter Manipal.
+#     - Recieved Bronze medal at ASISC State level swimming competition.
+#     - Published Essays in Weekly Newspapers and School Yearbooks.
+
+extra_curricular:
+
+- role: Co-Lead, Coach
+  title: Brave Behind Bars
+  link: https://bravebehindbars.org/
+  time: Summer 2022
+  company: The Educational Justice Institute
   details: |
-    - Campus Ambassador for Google Applied CS with Android course facilitated by Google.
-    - Organized Awareness Campaigns, Door to Door visits and cleanliness campaigns as part of Swachh Bharat Abhiyaan which recently received
-      Gates Foundation Award.
-    - Computer Science Instructor for Helpage Youth Foundation.
-    - Former Core Committee member of ACM Chapter Manipal.
-    - Recieved Bronze medal at ASISC State level swimming competition.
-    - Published Essays in Weekly Newspapers and School Yearbooks.
+    - A college‐accredited introductory computer science and career‐readiness program for currently incarcerated men and women.
+    -  My responsibilities include designing the curriculum, leading classes, and mentoring students with class projects.
+
+
+- role: Assistant to the Paper Chairs
+  title: ACM CHI 2023 Organizing Committee
+  link: https://chi2023.acm.org/organizing/organizing-committee/
+  time: 2022
+  company: 2023 ACM CHI Conference on Human Factors in Computing Systems (CHI 2023)
+  details: |
+    - ACM CHI Conference on Human Factors in Computing Systems is the premier international conference of Human‐Computer Interaction (HCI).
+    - My responsibilities include facilitating the Paper Chairs in administration responsibilities, setting up automated methods for communication,
+    task assignment, etc.
+
+- role: Co-Instructor and Teaching Assistant
+  title: 6.810 Engineering Interactive Technologies
+  link: https://hcie.csail.mit.edu/classes/2021-fall-6810/6810-engineering-interactive-technologies.html
+  time: Fall, 2021
+  company: MIT
+  details: |
+    - MIT Undergraduate class teaching skills in building cutting‐edge interactive technologies and explaining the underlying engineering concepts. Students use a studio format for constructing software and hardware prototypes on topics include interactive technologies, such as multi‐touch, augmented reality and wearables.
+    -  My responsibilities included revamping the course material for the course, writing instructions for labs and problem sets, testing hardware and software, and writing supporting documentation. During class, I helped students in assignments, and mentored students for projects.
+
+- role: Co-Instructor and Teaching Assistant
+  title: Graduate Application Assistance Program (GAAP)
+  link: https://www.thrive-eecs.mit.edu/gaap
+  time: 2021
+  company: MIT
+  details: |
+    - Initiative for underrepresented groups included first‐generation students, gender minorities, students from low‐income families, for their grad‐ uate school applications.
+    -  Mentored 3 students as part of the program ‐ providing guidance and feedback to students applying for graduate school. Supported the students in writing research proposals and personal statements.
   
+
 
 # skills:
 #     title: Technical Skills

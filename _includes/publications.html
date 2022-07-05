@@ -16,9 +16,9 @@
     {% endif %} {% for publication in publications.papers %}
     <div class="item">
         {% if publication.link %}
-        <li class="job-title"><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+        <h3 class="job-title"><a href="{{ publication.link }}">{{ publication.title }}</a></h3>
         {% else %}
-        <li class="job-title">{{ publication.title }}</li>
+        <h3 class="job-title">{{ publication.title }}</h3>
         {% endif %}
         <div class="publication-authors">{{ publication.authors }}</div>
         <div class="publication-conference">{{ publication.conference }}</div>
@@ -46,9 +46,9 @@
     {% endif %} {% for publication in short_papers.papers %}
     <div class="item">
         {% if publication.link %}
-        <li class="job-title"><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+        <h3 class="job-title"><a href="{{ publication.link }}">{{ publication.title }}</a></h3>
         {% else %}
-        <li class="job-title">{{ publication.title }}</li>
+        <h3 class="job-title">{{ publication.title }}</h3>
         {% endif %}
         <div class="publication-authors">{{ publication.authors }}</div>
         <div class="publication-conference">{{ publication.conference }}</div>
