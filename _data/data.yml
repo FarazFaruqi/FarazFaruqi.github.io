@@ -133,7 +133,7 @@ experiences:
 
 publications:
     title: Publications
-    intro: |
+    # intro: |
     papers:
 
      - title: "Selective Self Assembly using ReProgrammable Magnetic Pixels"
