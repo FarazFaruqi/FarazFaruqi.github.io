@@ -163,14 +163,14 @@ short_papers:
     intro: |
     papers:
       - title: "SliceHub: Augmenting Shared 3D Model Repositories with Slicing Results for 3D Printing"
-      link: "https://arxiv.org/abs/2109.14722"
-      authors: Faruqi F., Friedman K., Cheng L., Wessely M., Subramanian S., Mueller S.
-      conference: 2022 ACM CHI Conference on Human Factors in Computing Systems (CHI 2022)
+        link: "https://arxiv.org/abs/2109.14722"
+        authors: Faruqi F., Friedman K., Cheng L., Wessely M., Subramanian S., Mueller S.
+        conference: 2022 ACM CHI Conference on Human Factors in Computing Systems (CHI 2022)
 
       - title: "ChromoPrint: A Multi‐Color 3D Printer Based on a Reprogrammable Photochromic Resin"
-      link: "https://dl.acm.org/doi/fullHtml/10.1145/3491101.3519784"
-      authors: Qamar I., Chen S., Tskhovrebadze D., Boni P., Faruqi F., Wessely M., Mueller S.
-      conference: 2022 ACM CHI Conference on Human Factors in Computing Systems (CHI 2022)
+        link: "https://dl.acm.org/doi/fullHtml/10.1145/3491101.3519784"
+        authors: Qamar I., Chen S., Tskhovrebadze D., Boni P., Faruqi F., Wessely M., Mueller S.
+        conference: 2022 ACM CHI Conference on Human Factors in Computing Systems (CHI 2022)
 
 
 # presentations:
