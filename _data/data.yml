@@ -43,8 +43,9 @@ sidebar:
 
 career-profile:
     title: Research Statement
-    summary: I am a second year Computer Science Ph.D. student at MIT, where I am working with [Prof. Stefanie Mueller](https://hcie.csail.mit.edu/) at CSAIL. My research interests lie at the intersection of digital fabrication and machine learning for HCI. Specifically, I work on developing software and hardware tools that leverage existing data as knowledge sources and use machine learning to facilitate augmented human - machine interaction. 
-     
+    summary: |
+    I am a second year Computer Science Ph.D. student at MIT, where I am working with [Prof. Stefanie Mueller](https://hcie.csail.mit.edu/) at CSAIL. My research interests lie at the intersection of digital fabrication and machine learning for HCI. Specifically, I work on developing software and hardware tools that leverage existing data as knowledge sources and use machine learning to facilitate augmented human - machine interaction. 
+    | 
      Before joining as a PhD student at MIT, I worked with [Prof. Sriram Subramanian](https://www.ucl.ac.uk/computer-science/research/research-groups/multi-sensory-devices/) at UCL, London as a visiting student, where we worked on visualizing 3D objects with acoustic levitation. As an undergraduate research student, I briefly worked at HCI Institute, CMU with [Prof. Justine Cassell](https://www.hcii.cmu.edu/people/justine-cassell) on a project involving creating virtual collaborative agents to elicit curiosity for science in young students through collaborative games.
      
      
@@ -139,11 +140,11 @@ publications:
 
      - title: "Selective Self‐Assembly using Re‐Programmable Magnetic Pixels"
         authors: Nisser M., Makaram Y., Faruqi F., Suzuki R., Mueller S.
-        conference: 2022 International Conference on Intelligent Robots and Systems (IROS 2022)
+        conference: (To Appear) 2022 International Conference on Intelligent Robots and Systems (IROS 2022)
 
      - title: "Mixels: Fabricating Interfaces using Programmable Magnetic Pixels"
         authors: Nisser M., Makaram Y., Covarrubias L., Bah A., Faruqi F., Suzuki R., Leake M., Mueller S.
-        conference: 2022 ACM Symposium on User Interface Softward and Technology (UIST 2022)
+        conference: (To Appear) 2022 ACM Symposium on User Interface Softward and Technology (UIST 2022)
 
       - title: "G-ID: Identifying 3D Prints Using Slicing Parameters"
         link: "https://doi.org/10.1145/3313831.3376202"
