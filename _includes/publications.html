@@ -50,8 +50,10 @@
         {% else %}
         <h3 class="job-title">{{ publication.title }}</h3>
         {% endif %}
-        {% if publication.demo %} <br>
-            <a class="demo_button" href={{ publication.demo }}>Working Demo</a>  <br>
+        {% if publication.demo %} 
+        <br>
+            <a class="demo_button" href={{ publication.demo }}>Working Demo</a> 
+        <br>
         {% endif %}
         <div class="publication-authors">{{ publication.authors }}</div>
         <div class="publication-conference">{{ publication.conference }}</div>
