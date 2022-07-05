@@ -31,15 +31,15 @@ sidebar:
         level: Native
 
 
-    interests:
-      - item: Piano
-        link:
+    # interests:
+    #   - item: Piano
+    #     link:
 
-      - item: Hiking
-        link:
+    #   - item: Hiking
+    #     link:
 
-      - item: Swimming
-        link:
+    #   - item: Swimming
+    #     link:
 
 career-profile:
     title: Research Statement
@@ -168,6 +168,7 @@ short_papers:
     papers:
       - title: "SliceHub: Augmenting Shared 3D Model Repositories with Slicing Results for 3D Printing"
         link: "https://arxiv.org/abs/2109.14722"
+        demo:https://slicehub-sandbox.herokuapp.com/
         authors: Faruqi F., Friedman K., Cheng L., Wessely M., Subramanian S., Mueller S.
         conference: 2022 ACM CHI Conference on Human Factors in Computing Systems (CHI 2022)
 
