@@ -133,9 +133,8 @@ experiences:
 
 publications:
     title: Publications
-    # intro: |
+    intro: |
     papers:
-
      - title: "Selective Self Assembly using ReProgrammable Magnetic Pixels"
         authors: Nisser M., Makaram Y., Faruqi F., Suzuki R., Mueller S.
         link: "https://doi.org/10.1145/3313831.3376202"
