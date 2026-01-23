@@ -47,4 +47,50 @@ function toggleTopic(element) {
     content.classList.toggle('collapsed');
 }
 
+// Lightbox functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lightbox-image');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const lightboxClose = document.querySelector('.lightbox-close');
+    const galleryImages = document.querySelectorAll('.gallery-image');
+
+    // Open lightbox when clicking on gallery images
+    galleryImages.forEach(function(image) {
+        image.addEventListener('click', function() {
+            lightbox.classList.add('active');
+            lightboxImage.src = this.src;
+            lightboxImage.alt = this.alt;
+            lightboxCaption.textContent = this.alt;
+            document.body.style.overflow = 'hidden'; // Prevent scrolling
+        });
+    });
+
+    // Close lightbox when clicking the close button
+    if (lightboxClose) {
+        lightboxClose.addEventListener('click', function() {
+            closeLightbox();
+        });
+    }
+
+    // Close lightbox when clicking outside the image
+    lightbox.addEventListener('click', function(e) {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+
+    // Close lightbox with Escape key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+            closeLightbox();
+        }
+    });
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = ''; // Restore scrolling
+    }
+});
+
 

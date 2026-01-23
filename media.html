@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media - Faraz Faruqi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">about</a></li>
+                <li class="nav-item"><a href="publications.html" class="nav-link">publications</a></li>
+                <li class="nav-item"><a href="media.html" class="nav-link active">media</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+                <!-- <li class="nav-item"><a href="blog.html" class="nav-link">blog</a></li> -->
+                <!-- <li class="nav-item"><a href="fiction.html" class="nav-link">fiction</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <header class="header-section">
+                <h1 class="name-title">Media</h1>
+            </header>
+
+            <section class="media-section">
+                <h2>Exhibitions & Public Showcases</h2>
+
+                <div class="exhibition">
+                    <h3>Art You Can Touch: Transorming Paintings into Touchable 3D Reliefs with Generative AI</h3>
+                    <p class="exhibition-meta">
+                        Henry Art Gallery · Seattle, WA · 2025
+                    </p>
+                    <p class="exhibition-meta">
+                        In collaboration with <a href="https://people.csail.mit.edu/nisser/">Prof. Martin Nisser</a> of University of Washington. Photo credit: <a href="https://www.instagram.com/everythingtimestudio/">Everything Time Studio</a> 
+                    </p>
+                    <p>
+                        This exhibition presents a series of tactile 3D-printed reliefs that translate paintings and images into touchable physical artifacts. Using generative AI and computational fabrication techniques, the work explores how visual media can be transformed into objects that convey texture, depth, and material presence through touch.
+
+                        The pieces invite visitors to engage with images beyond sight alone, offering an alternative way of experiencing visual content that foregrounds physical interaction, accessibility, and material understanding.
+                    </p>
+
+                    <div class="exhibition-gallery">
+                        <img src="img/Henry_Art_Gallery/henry-kids.png" alt="3D printed tactile tile with layered texture" class="gallery-image">
+                        <img src="img/Henry_Art_Gallery/henry-objects.png" alt="Close-up of generative texture patterns" class="gallery-image">
+                        <img src="img/Henry_Art_Gallery/henry-poster.png" alt="Poster with details about the exhibition" class="gallery-image">
+                        <img src="img/Henry_Art_Gallery/henry-more-objects.png" alt="More images from the exhibition" class="gallery-image">
+                    </div>
+                </div>
+
+                <div class="exhibition">
+                    <h3>RSS 2025 Workshop on Navigating Contact Dynamics in Robotics</h3>
+                    <p class="exhibition-meta">
+                        RSS 2025 · Universirt of Southern California · June 2025
+                    </p>
+                    <p class="exhibition-meta">
+                        <strong>Invited Speaker</strong>
+                    </p>
+                    <p>
+                        I was invited to present and demonstrate my work on tactile surface generation and fabrication-aware generative models at the Navigating Contact Dynamics in Robotics workshop at RSS 2025. The workshop brought together researchers across robotics, haptics, and interaction to explore how contact, material properties, and physical dynamics shape intelligent systems.
+                    </p>
+
+                    <div class="exhibition-gallery">
+                        <img src="img/RSS_Workshop/rss-conference-1.jpg" alt="Workshop presentation at RSS 2025" class="gallery-image">
+                        <img src="img/RSS_Workshop/rss-conference-2.jpg" alt="Demonstration at the workshop" class="gallery-image">
+                        <img src="img/RSS_Workshop/rss-conference-3.jpeg" alt="Workshop attendees and discussion" class="gallery-image">
+                        <img src="img/RSS_Workshop/rss-conference-4.jpeg" alt="Tactile surface generation demonstration" class="gallery-image">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-image" id="lightbox-image" src="" alt="">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Copyright <span id="current-year"></span> Faraz Faruqi</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
