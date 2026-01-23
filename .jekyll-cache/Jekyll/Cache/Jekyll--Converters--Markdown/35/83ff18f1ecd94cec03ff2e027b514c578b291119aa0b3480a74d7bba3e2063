@@ -1,9 +1,0 @@
-I"Õ<ul>
-  <li><strong>Cervical Cancer Detection System:</strong> Explored various Image Enhancement techniques like including Canny-Edge, 
-Sobel and Fuzzy Normalization to augment target features in segmented cell images.</li>
-  <li>Used Deep Convolutional Networks to classify processed cell images. Explored Transfer Learning as a method for improving accuracy.</li>
-  <li><strong>Shunya: Lightweight Handwritten Digit Recognizer:</strong> Using Kirsch Directional features of an image as input, 
-and a Convolutional Network as a classifier, created a lightweight system for handwritten
-digit recognition. Achieved 98.8% accuracy in MNIST using a fraction of compute power to train as compared to traditional CNNs.</li>
-</ul>
-:ET

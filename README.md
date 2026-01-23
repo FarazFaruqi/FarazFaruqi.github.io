@@ -1,60 +1,79 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+# Personal Website
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/). 
-> Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
+A clean, modern personal website structure inspired by academic and professional portfolio sites.
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://webjeda.com/online-cv/).
+## Structure
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://webjeda.com/online-cv/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://webjeda.com/online-cv/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+```
+Personal Website/
+├── index.html          # Main about page
+├── contact.html        # Contact page
+├── blog.html          # Blog listing page
+├── fiction.html       # Fiction writing page
+├── assets/
+│   ├── css/
+│   │   └── main.css   # Main stylesheet
+│   ├── js/
+│   │   └── main.js    # JavaScript for interactivity
+│   └── img/
+│       └── headshot.jpg  # Your profile image (add your own)
+└── README.md
+```
 
-## Installation
+## Features
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository
-* Delete the `gh-pages` branch
-* Re-create the `gh-pages` branch
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready at `https://username.github.io/online-cv/`
+- **Clean, Modern Design**: Minimalist layout with professional styling
+- **Responsive**: Works on desktop, tablet, and mobile devices
+- **Navigation**: Easy navigation between pages with active state indicators
+- **Sections**:
+  - About page with bio, profile image, and social links
+  - News section with chronological updates
+  - Research areas section
+  - Contact page
+  - Blog and Fiction pages
 
-Change all the details from one place: ``_data/data.yml``
+## Getting Started
 
-Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
+1. **Add Your Content**: 
+   - Replace placeholder text in `index.html` with your information
+   - Add your profile image to `assets/img/headshot.jpg`
+   - Update social links with your actual profiles
+   - Customize the news section with your updates
+   - Add your research areas and descriptions
 
-## Skins
+2. **Customize Styling**:
+   - Edit `assets/css/main.css` to match your preferred color scheme
+   - Adjust fonts, spacing, and layout as needed
 
-There are 6 color schemes available:
+3. **Add Blog/Fiction Content**:
+   - Update `blog.html` and `fiction.html` with your actual content
+   - You can create individual post pages or use a simple listing format
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://webjeda.com/online-cv/assets/images/blue.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/turquoise.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/green.jpg" width="300"/> |
+4. **Deploy**:
+   - This is a static website that can be hosted on:
+     - GitHub Pages
+     - Netlify
+     - Vercel
+     - Any static hosting service
 
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://webjeda.com/online-cv/assets/images/berry.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/orange.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/ceramic.jpg" width="300"/> |
+## Customization
 
-## Credits
+### Colors
+Edit the CSS variables in `assets/css/main.css`:
+```css
+:root {
+    --primary-color: #2c3e50;
+    --text-color: #333;
+    --link-color: #0066cc;
+    /* ... */
+}
+```
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
+### Profile Image
+Replace `assets/img/headshot.jpg` with your own profile photo (recommended size: 200x200px or larger square image).
 
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+## Browser Support
 
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+Works in all modern browsers (Chrome, Firefox, Safari, Edge).
 
-## License
 
-This project is licensed under the [MIT license](LICENSE.txt).

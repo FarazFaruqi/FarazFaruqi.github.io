@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Faraz Faruqi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">about</a></li>
+                <li class="nav-item"><a href="publications.html" class="nav-link active">publications</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+                <!-- <li class="nav-item"><a href="blog.html" class="nav-link">blog</a></li> -->
+                <!-- <li class="nav-item"><a href="fiction.html" class="nav-link">fiction</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <header class="header-section">
+                <h1 class="name-title">Publications</h1>
+            </header>
+
+            <section class="publications-section">
+                <p class="section-intro">For a full overview of my publications, visit my <a href="https://scholar.google.com/citations?user=n-9S_B4AAAAJ&hl=en" class="social-link">Google Scholar</a> page.</p>
+                <br>
+                <br>
+                
+                <!-- 3D Generative AI with Physical Constraints -->
+                <div class="publication-topic-section">
+                    <h2 class="publication-topic-title collapsed" onclick="toggleTopic(this)">
+                        <span class="topic-title-text">3D Generative AI with Physical Constraints</span>
+                        <i class="fas fa-chevron-down topic-chevron"></i>
+                    </h2>
+                    <p class="topic-description">I develop generative AI systems that integrate physical constraints—such as structural integrity, mechanical behavior, and material properties—into 3D model generation. My work bridges the gap between visually compelling AI-generated models and physically functional objects that can be successfully manufactured and used in the real world.</p>
+                    <div class="publications-list topic-content collapsed">
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/mechstyle.png" alt="MechStyle thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">MechStyle: Augmenting Generative AI with Mechanical Simulation to Create Stylized and Structurally Viable 3D Models</h3>
+                                    <p class="publication-authors"><strong>Faraz Faruqi</strong>, Amira Abdel Rahman, Leandra Tejedor, Martin Nisser, Jiaji Li, Vrushank Phadnis, Varun Jampani, Neil Gershenfeld, Megan Hofmann, Stefanie Mueller</p>
+                                    <p class="publication-venue"><strong>ACM SCF 2025</strong></p>
+                                    <p class="publication-summary">We present MechStyle, a system that integrates mechanical simulation into generative 3D workflows to create objects that are both visually compelling and physically functional. By combining generative AI with finite element analysis, users can generate stylized 3D models that maintain structural integrity and can be successfully 3D printed.</p>
+                                    <div class="publication-links">
+                                        <a href="https://arxiv.org/pdf/2509.20571" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="https://youtu.be/3BEZYZ86DNQ?si=QXKYOJNn4c9Ek1r5" class="pub-link pub-link-video" target="_blank" rel="noopener noreferrer">Video</a>
+                                        <a href="https://dl.acm.org/doi/10.1145/3745778.3766655" class="pub-link pub-link-doi" target="_blank" rel="noopener noreferrer">DOI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/tactstyle.png" alt="TactStyle thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">TactStyle: Generating Tactile Textures with Generative AI for Digital Fabrication</h3>
+                                    <p class="publication-authors"><strong>Faraz Faruqi</strong>, Maxine Perroni-Scharf, Jaskaran Singh Walia, Yunyi Zhu, Shuyue Feng, Donald Degraen, Stefanie Mueller</p>
+                                    <p class="publication-venue"><strong>CHI 2025</strong></p>
+                                    <p class="publication-summary">TactStyle enables users to generate tactile textures from visual images using generative AI, transforming 2D images into 3D printable tactile reliefs. The system encodes texture and depth information, making visual content accessible through touch for blind and low-vision users.</p>
+                                    <div class="publication-links">
+                                        <a href="https://groups.csail.mit.edu/hcie/files/research-projects/tactstyle/tactstyle.pdf" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="https://hcie.csail.mit.edu/research/tactstyle/tactstyle.html" class="pub-link pub-link-poster" target="_blank" rel="noopener noreferrer">Project Page</a>
+                                        <a href="https://www.youtube.com/watch?v=vIMCwYZR7wY" class="pub-link pub-link-video" target="_blank" rel="noopener noreferrer">Video</a>
+                                        <a href="https://dl.acm.org/doi/10.1145/3706598.3713740" class="pub-link pub-link-doi" target="_blank" rel="noopener noreferrer">DOI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/style2fab.png" alt="Style2Fab thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">Style2Fab: Functionality-Aware Segmentation for Fabricating Personalized 3D Models with Generative AI</h3>
+                                    <p class="publication-authors"><strong><em>Faraz Faruqi</em></strong>, Ahmed Katary, Tarik Hasic, Amira Abdel-Rahman, Nayeemur Rahman, Leandra Tejedor, Mackenzie Leake, Megan Hofmann, Stefanie Mueller</p>
+                                    <p class="publication-venue"><strong>UIST 2023</strong></p>
+                                    <p class="publication-summary">Style2Fab enables users to personalize 3D models generated by AI while preserving their functional properties. The system uses functionality-aware segmentation to separate stylistic and functional regions, allowing users to modify aesthetics without compromising structural integrity.</p>
+                                    <div class="publication-links">
+                                        <a href="https://groups.csail.mit.edu/hcie/files/research-projects/style2fab/style2fab.pdf" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="https://hcie.csail.mit.edu/research/style2fab/style2fab.html" class="pub-link pub-link-poster" target="_blank" rel="noopener noreferrer">Project page</a>
+                                        <a href="https://www.youtube.com/watch?v=wGp1vMNsM3Q&ab_channel=MITCSAILHCIEngineeringGroup" class="pub-link pub-link-video" target="_blank" rel="noopener noreferrer">Video</a>
+                                        <a href="https://dl.acm.org/doi/10.1145/3586183.3606723" class="pub-link pub-link-doi" target="_blank" rel="noopener noreferrer">DOI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/text2texture.png" alt="Text2Texture thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">Text2Texture: Generating 3D-Printed Models with Textures based on Text and Image Prompts</h3>
+                                    <p class="publication-authors">Joshua Yin, <strong>Faraz Faruqi</strong>, Martin Nisser</p>
+                                    <p class="publication-venue"><strong>UIST 2025</strong> (Adjunct Proceedings)</p>
+                                    <p class="publication-summary">Text2Texture is a webtool that converts 2D color images / paintings into textured 3D models, allowing users to create tactile 3D models from their favorite artworks. The system extracts depth information using a monocular estimator and local texture information using a stable diffusion model, superimposing macro- and micro-scale geometries to produce composite 3D models with color, depth, and texture.</p>
+                                    <div class="publication-links">
+                                        <a href="#" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="#" class="pub-link pub-link-poster" target="_blank" rel="noopener noreferrer">Project Page</a>
+                                        <a href="#" class="pub-link pub-link-video" target="_blank" rel="noopener noreferrer">Video</a>
+                                        <a href="#" class="pub-link pub-link-doi" target="_blank" rel="noopener noreferrer">DOI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accessibility & Inclusive Design -->
+                <div class="publication-topic-section">
+                    <h2 class="publication-topic-title collapsed" onclick="toggleTopic(this)">
+                        <span class="topic-title-text">Accessibility & Inclusive Design</span>
+                        <i class="fas fa-chevron-down topic-chevron"></i>
+                    </h2>
+                    <p class="topic-description">I create accessible design tools and systems that enable users with visual impairments to participate in 3D design and fabrication. My work focuses on making digital fabrication more inclusive through AI-assisted interfaces and tactile representations of visual content.</p>
+                    <div class="publications-list topic-content collapsed">
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/a11yshape.png" alt="A11yShape thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">A11yShape: AI-Assisted 3-D Modeling for Blind and Low-Vision Programmers</h3>
+                                    <p class="publication-authors">Zhuohao Zhang, Haichang Li, Chun Meng Yu, <strong>Faraz Faruqi</strong>, Junan Xie, Gene SH Kim, Mingming Fan, Angus Forbes, Jacob O Wobbrock, Anhong Guo, Liang He</p>
+                                    <p class="publication-venue"><strong>ASSETS 2025</strong></p>
+                                    <p class="publication-summary">A11yShape is an AI-assisted 3D modeling system designed for blind and low-vision programmers. The system enables users to create and manipulate 3D models through accessible interfaces, making 3D design and fabrication more inclusive for users with visual impairments.</p>
+                                    <div class="publication-links">
+                                        <a href="https://dl.acm.org/doi/10.1145/3649954" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="https://dl.acm.org/doi/10.1145/3649954" class="pub-link pub-link-doi" target="_blank" rel="noopener noreferrer">DOI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mixed Reality & Interactivity -->
+                <div class="publication-topic-section">
+                    <h2 class="publication-topic-title collapsed" onclick="toggleTopic(this)">
+                        <span class="topic-title-text">Mixed Reality & 3D Design with AI</span>
+                        <i class="fas fa-chevron-down topic-chevron"></i>
+                    </h2>
+                    <p class="topic-description">I explore how to capture and reconstruct the interactivity of physical objects in mixed reality environments. My work enables users to preserve and interact with meaningful personal items digitally, creating rich mixed reality experiences that maintain both the appearance and functional behaviors of physical artifacts.</p>
+                    <div class="publications-list topic-content collapsed">
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/inte-recon.png" alt="InteRecon thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">InteRecon: Towards Reconstructing Interactivity of Personal Memorable Items in Mixed Reality</h3>
+                                    <p class="publication-authors">Zisu Li, Jiawei Li, Zeyu Xiong, Shumeng Zhang, <strong>Faraz Faruqi</strong>, Stefanie Mueller, Chen Liang, Xiaojuan Ma, Mingming Fan*</p>
+                                    <p class="publication-venue"><strong>CHI 2025</strong></p>
+                                    <p class="publication-summary">InteRecon reconstructs the interactivity of personal memorable items in mixed reality, allowing users to preserve and interact with meaningful objects digitally. The system captures both the physical appearance and functional behaviors of objects, enabling rich mixed reality experiences with personal artifacts.</p>
+                                    <div class="publication-links">
+                                        <a href="https://dl.acm.org/doi/pdf/10.1145/3706598.3713882" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="https://youtu.be/5OR7vwUmjJw?si=Gj83XdtsS23KhPbI" class="pub-link pub-link-video" target="_blank" rel="noopener noreferrer">Video</a>
+                                        <a href="https://dl.acm.org/doi/full/10.1145/3706598.3713882" class="pub-link pub-link-doi" target="_blank" rel="noopener noreferrer">DOI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Computational Fabrication & Tools -->
+                <div class="publication-topic-section">
+                    <h2 class="publication-topic-title collapsed" onclick="toggleTopic(this)">
+                        <span class="topic-title-text">Computational Design & Fabrication Tools</span>
+                        <i class="fas fa-chevron-down topic-chevron"></i>
+                    </h2>
+                    <p class="topic-description">I develop computational tools and systems that enhance the 3D printing and digital fabrication workflow. My work includes design toolkits for specialized fabrication processes, repository augmentation for better model discovery, novel printing technologies, and authentication systems for digital manufacturing.</p>
+                    <div class="publications-list topic-content collapsed">
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/wirebend-kit.png" alt="WireBend-kit thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">WireBend-kit: A Computational Design and Fabrication Toolkit for Wirebending Custom 3D Wireframe Structures</h3>
+                                    <p class="publication-authors"><strong>Faraz Faruqi</strong>, Josha Paonaskar, Riley Schuler, Aiden Prevey, Carson Taylor, Anika Tak, Anthony Guinto, Eeshani Shilamkar, Natarith Cheenaruenthong, Martin Nisser</p>
+                                    <p class="publication-venue"><strong>ACM SCF 2025</strong></p>
+                                    <p class="publication-summary">WireBend-kit provides a computational design and fabrication toolkit for creating custom 3D wireframe structures through wirebending. The system enables users to design complex wireframe geometries and automatically generates fabrication instructions for bending wire into desired shapes.</p>
+                                    <div class="publication-links">
+                                        <a href="#" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="#" class="pub-link pub-link-poster" target="_blank" rel="noopener noreferrer">Project Page</a>
+                                        <a href="#" class="pub-link pub-link-video" target="_blank" rel="noopener noreferrer">Video</a>
+                                        <a href="#" class="pub-link pub-link-doi" target="_blank" rel="noopener noreferrer">DOI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/slicehub.jpg" alt="SliceHub thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">SliceHub: Augmenting Shared 3D Model Repositories with Slicing Results for 3D Printing</h3>
+                                    <p class="publication-authors"><strong>Faraz Faruqi</strong>, Kenneth Friedman, Leon Cheng, Michael Wessely, Sriram Subramanian, Stefanie Mueller</p>
+                                    <p class="publication-venue"><strong>CHI 2022</strong> (Adjunct Proceedings)</p>
+                                    <p class="publication-summary">SliceHub augments shared 3D model repositories with slicing results, providing users with previews of how models will print before downloading. The system helps users identify printability issues and select appropriate models by showing slicing outcomes directly in the repository interface.</p>
+                                    <div class="publication-links">
+                                        <a href="http://groups.csail.mit.edu/hcie/files/research-projects/slicehub/2021-slicehub-paper.pdf" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="https://hcie.csail.mit.edu/research/slicehub/slicehub.html" class="pub-link pub-link-poster" target="_blank" rel="noopener noreferrer">Project page</a>
+                                        <a href="https://youtu.be/n_gMHTeULlA" class="pub-link pub-link-video" target="_blank" rel="noopener noreferrer">Video</a>
+                                        <a href="https://arxiv.org/abs/2109.14722" class="pub-link pub-link-arxiv" target="_blank" rel="noopener noreferrer">arXiv</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/chromoprint.jpg" alt="ChromoPrint thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">ChromoPrint: A Multi-Color 3D Printer Based on a Reprogrammable Photochromic Resin</h3>
+                                    <p class="publication-authors">Isabel P. S. Qamar, Sabina W. Chen, Dimitri Tskhovrebadze, Paolo Boni, <strong>Faraz Faruqi</strong>, Michael Wessely, Stefanie Mueller</p>
+                                    <p class="publication-venue"><strong>CHI 2022</strong> (Adjunct Proceedings)</p>
+                                    <p class="publication-summary">ChromoPrint is a multi-color 3D printer that uses reprogrammable photochromic resin to create objects with dynamic color properties. The system enables post-printing color changes through selective UV exposure, allowing users to customize and recolor 3D printed objects after fabrication.</p>
+                                    <div class="publication-links">
+                                        <a href="https://groups.csail.mit.edu/hcie/files/research-projects/chromoprint/2022-CHI-Chromoprint-lbw.pdf" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="https://hcie.csail.mit.edu/research/chromoprint/chromoprint.html" class="pub-link pub-link-poster" target="_blank" rel="noopener noreferrer">Project page</a>
+                                        <a href="https://www.youtube.com/watch?v=zUC-4pLO_CI" class="pub-link pub-link-video" target="_blank" rel="noopener noreferrer">Video</a>
+                                        <a href="https://dl.acm.org/doi/abs/10.1145/3491101.3519784" class="pub-link pub-link-doi" target="_blank" rel="noopener noreferrer">DOI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/g-id.png" alt="G-ID thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">G-ID: Identifying 3D Prints Using Slicing Parameters</h3>
+                                    <p class="publication-authors">Mustafa Doga Dogan, <strong>Faraz Faruqi</strong>, Andrew Day Churchill, Kenneth Friedman, Leon Cheng, Sriram Subramanian, Stefanie Mueller</p>
+                                    <p class="publication-venue"><strong>CHI 2020</strong></p>
+                                    <p class="publication-summary">G-ID identifies 3D printed objects by analyzing their slicing parameters, creating a unique fingerprint based on the manufacturing process. The system enables authentication and tracking of 3D printed objects, addressing security and intellectual property concerns in digital fabrication.</p>
+                                    <div class="publication-links">
+                                        <a href="http://groups.csail.mit.edu/hcie/files/research-projects/G-ID/2020-CHI-GID-paper.pdf" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="https://hcie.csail.mit.edu/research/gid/gid.html" class="pub-link pub-link-poster" target="_blank" rel="noopener noreferrer">Project page</a>
+                                        <a href="https://hcie.csail.mit.edu/research/gid/gid.html" class="pub-link pub-link-video" target="_blank" rel="noopener noreferrer">Video</a>
+                                        <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376202" class="pub-link pub-link-doi" target="_blank" rel="noopener noreferrer">DOI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Programmable Materials & Interfaces -->
+                <div class="publication-topic-section">
+                    <h2 class="publication-topic-title collapsed" onclick="toggleTopic(this)">
+                        <span class="topic-title-text">Programmable Materials & Interfaces</span>
+                        <i class="fas fa-chevron-down topic-chevron"></i>
+                    </h2>
+                    <p class="topic-description">I work with programmable materials, particularly magnetic pixels, to create reconfigurable physical interfaces and adaptive assembly systems. My research enables rapid prototyping of interactive interfaces and robotic systems that can dynamically change their behavior through material programming.</p>
+                    <div class="publications-list topic-content collapsed">
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/iros-assembly.png" alt="Selective Self-Assembly thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">Selective Self-Assembly using Re-Programmable Magnetic Pixels</h3>
+                                    <p class="publication-authors">Martin Nisser, Yashaswini Makaram, <strong>Faraz Faruqi</strong>, Ryo Suzuki, Stefanie Mueller</p>
+                                    <p class="publication-venue"><strong>IROS 2023</strong></p>
+                                    <p class="publication-summary">This work presents a system for selective self-assembly using re-programmable magnetic pixels. Objects can be dynamically reconfigured through magnetic programming, enabling flexible and adaptive robotic assembly processes that can change behavior based on task requirements.</p>
+                                    <div class="publication-links">
+                                        <a href="http://groups.csail.mit.edu/hcie/files/research-projects/selective/selective.pdf" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="https://hcie.csail.mit.edu/research/selective/selective.html" class="pub-link pub-link-poster" target="_blank" rel="noopener noreferrer">Project page</a>
+                                        <a href="https://youtu.be/HK9_ynH6A6w" class="pub-link pub-link-video" target="_blank" rel="noopener noreferrer">Video</a>
+                                        <a href="https://ieeexplore.ieee.org/document/9981879" class="pub-link pub-link-doi" target="_blank" rel="noopener noreferrer">DOI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="publication-item">
+                            <div class="publication-content">
+                                <div class="publication-image-container">
+                                    <img src="img/mixels.png" alt="Mixels thumbnail" class="publication-image">
+                                </div>
+                                <div class="publication-details">
+                                    <h3 class="publication-title">Mixels: Fabricating Interfaces using Programmable Magnetic Pixels</h3>
+                                    <p class="publication-authors">Martin Nisser, Yashaswini Makaram, Lucian Covarrubias, Amadou Bah, <strong><em>Faraz Faruqi</em></strong>, Ryo Suzuki, Stefanie Mueller</p>
+                                    <p class="publication-venue"><strong>UIST 2022</strong></p>
+                                    <p class="publication-summary">Mixels introduces programmable magnetic pixels that can be used to fabricate interactive interfaces. The system enables rapid prototyping of physical interfaces with reconfigurable magnetic properties, allowing for dynamic and adaptable user interfaces in physical computing applications.</p>
+                                    <div class="publication-links">
+                                        <a href="http://groups.csail.mit.edu/hcie/files/research-projects/mixels/mixels.pdf" class="pub-link pub-link-paper" target="_blank" rel="noopener noreferrer">PDF</a>
+                                        <a href="https://hcie.csail.mit.edu/research/mixels/mixels.html" class="pub-link pub-link-poster" target="_blank" rel="noopener noreferrer">Project page</a>
+                                        <a href="https://youtu.be/6SvFCQkVFtw" class="pub-link pub-link-video" target="_blank" rel="noopener noreferrer">Video</a>
+                                        <a href="https://dl.acm.org/doi/abs/10.1145/3526113.3545698" class="pub-link pub-link-doi" target="_blank" rel="noopener noreferrer">DOI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Copyright <span id="current-year"></span> Faraz Faruqi. Powered by HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
