@@ -310,6 +310,69 @@ body {
     text-decoration: underline;
 }
 
+.contact-block {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid var(--link-color);
+}
+
+.contact-block h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--primary-color);
+}
+
+.contact-block p {
+    margin-bottom: 0.75rem;
+    color: #555;
+}
+
+.contact-email {
+    margin-top: 0.5rem;
+}
+
+.contact-email code {
+    background-color: #e9ecef;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    color: var(--primary-color);
+    display: inline-block;
+}
+
+.contact-list {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    color: #555;
+}
+
+.contact-list li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.contact-section .social-links {
+    margin: 1rem 0;
+    padding: 0;
+    border: none;
+    display: block;
+}
+
+.contact-section .social-links a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-section .social-links a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
 /* Blog Section */
 .blog-section,
 .fiction-section {
