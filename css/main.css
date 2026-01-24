@@ -53,9 +53,10 @@ body {
     gap: 2rem;
 }
 
-.nav-item {
-    text-transform: lowercase;
+/* .nav-item {
+    /* text-transform: lowercase;
 }
+ */
 
 .nav-link {
     text-decoration: none;
